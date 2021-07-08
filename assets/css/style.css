@@ -182,7 +182,7 @@ span {
   height: 28px;
 }
 
-#header.header-scrolled {
+#header .header-scrolled {
   background: #fff;
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
   padding: 10px 0;
@@ -194,7 +194,7 @@ span {
 #hero {
   width: 100%;
   height: calc(100vh - 40px);
-  background: url(../img/hero-bg.png) center bottom no-repeat;
+  background: url(../img/hero-bg-new.png) center bottom no-repeat;
   background-size: 100%;
   position: relative;
   margin-top: 50px;
@@ -218,6 +218,21 @@ span {
   align-items: center;
   flex-direction: column;
   text-align: center;
+}
+
+.hero-container img {
+  -webkit-animation: action 1s infinite  alternate;
+  animation: action 1s infinite  alternate;
+}
+
+@-webkit-keyframes action {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+
+@keyframes action {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
 }
 
 #hero h1 {
@@ -655,8 +670,12 @@ section {
 --------------------------------*/
 #get-started {
   display: inline-block;
-  height: 100%;
   width: 100%;
+  height: calc(100vh - 40px);
+  background: url(../img/about-bg.png) center bottom no-repeat;
+  background-size: 100%;
+  position: relative;
+  margin-top: 50px;
 }
 
 #get-started .feature-block {
@@ -733,6 +752,16 @@ section {
 
 /* Problems Section
 --------------------------------*/
+#problems {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  background: url(../img/problems-bg.png) center bottom no-repeat;
+  background-size: 100%;
+  position: relative;
+  margin-top: 50px;
+}
+
 #problems img {
   max-width: 100%;
 }
@@ -797,8 +826,9 @@ section {
 }
 
 #goals .feature-block:hover {
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 35px #20c997;
   transition: all 0.5s ease-in-out 0s;
+
 }
 
 #goals .feature-block h4 {
@@ -1036,7 +1066,7 @@ section {
 /* Testimonials Section
 --------------------------------*/
 #testimonials .testimonials-content {
-  box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 45px #20c997;
   padding: 49px 20px;
 }
 
