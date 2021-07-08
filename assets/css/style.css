@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   color: #000;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 h4 {
@@ -63,7 +63,7 @@ li {
 
 p {
   color: #505050;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 300;
   letter-spacing: 0.5px;
   line-height: 2;
@@ -565,9 +565,10 @@ section {
 }
 
 .section-title h2 {
+  color: #20c997;
   font-family: "Roboto", sans-serif;
   font-size: 45px;
-  font-weight: 100;
+  font-weight: bold;
   letter-spacing: 2px;
   margin-bottom: 20px;
   text-transform: capitalize;
@@ -580,7 +581,7 @@ section {
 .separator {
   color: #626262;
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 300;
   margin-bottom: 30px;
   text-transform: capitalize;
@@ -730,6 +731,28 @@ section {
   padding-right: 20px;
 }
 
+/* Problems Section
+--------------------------------*/
+#problems img {
+  max-width: 100%;
+}
+
+#problems .about-content p {
+  margin-bottom: 50px;
+}
+
+#problems .container p {
+  font-size: larger;
+}
+
+#problems .about-content ul li {
+  line-height: 36px;
+}
+
+#problems .about-content ul li .fa {
+  padding-right: 20px;
+}
+
 /* Features Section
 --------------------------------*/
 #features {
@@ -755,6 +778,34 @@ section {
 }
 
 #features .feature-block p {
+  margin-bottom: 0;
+}
+
+/* Features Section
+--------------------------------*/
+#goals {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+#goals .feature-block {
+  background: #fff none repeat scroll 0 0;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#goals .feature-block:hover {
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#goals .feature-block h4 {
+  margin-bottom: 20px;
+}
+
+#goals .feature-block p {
   margin-bottom: 0;
 }
 
