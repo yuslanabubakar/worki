@@ -934,7 +934,7 @@ section {
 }
 
 #team .team-block .team-content {
-  background: #fff none repeat scroll 0 0;
+  background: #fff repeat scroll 0 0;
   bottom: 0;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
   bottom: -100px;
