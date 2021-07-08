@@ -27,7 +27,7 @@ h4 {
   color: #000;
   font-size: 13px;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   text-transform: uppercase;
   line-height: 2;
 }
@@ -197,7 +197,8 @@ span {
   background: url(../img/hero-bg.png) center bottom no-repeat;
   background-size: 100%;
   position: relative;
-  margin-top: 40px;
+  margin-top: 50px;
+  
 }
 
 @media (min-width: 1025px) {
@@ -914,7 +915,7 @@ section {
 --------------------------------*/
 #team .team-block {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
-  height: 254px;
+  height: auto;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -922,20 +923,22 @@ section {
 
 @media (max-width: 991px) {
   #team .team-block {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 }
 
 #team .team-block img {
   width: 100%;
+  margin-bottom: 10px;
+  /* padding: 10px; */
 }
 
 #team .team-block .team-content {
-  background: #fff none repeat scroll 0 0;
+  background: #fff repeat scroll 0 0;
   bottom: 0;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
-  bottom: -147px;
-  padding: 20px 0;
+  bottom: -100px;
+  padding: 5px 0;
   position: absolute;
   width: 100%;
   transition: all 0.5s ease-in-out 0s;
@@ -967,10 +970,10 @@ section {
 
 #team .team-block .team-content ul > span {
   display: inline-block;
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 8px;
+  font-weight: 0;
   letter-spacing: 0.5px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
@@ -982,7 +985,7 @@ section {
 /* Testimonials Section
 --------------------------------*/
 #testimonials .testimonials-content {
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
   padding: 49px 20px;
 }
 
@@ -999,7 +1002,7 @@ section {
 
 #testimonials .top-top > h2 {
   font-family: "Roboto" sans-serif;
-  font-size: 45px;
+  font-size: 38px;
   font-weight: 100;
   letter-spacing: 2px;
   margin-bottom: 20px;
@@ -1007,11 +1010,11 @@ section {
 }
 
 #testimonials .top-top > h4 {
-  font: 700 12px Lato, sans-serif;
+  font: 700 24px Lato, sans-serif;
 }
 
 #testimonials .top-top span {
-  font-size: 12px;
+  font-size: 24 px;
   font-weight: 300;
   margin-left: 26px;
 }
@@ -1024,8 +1027,8 @@ section {
   overflow: hidden;
   background: #ddd none repeat scroll 0 0;
   cursor: pointer;
-  height: 12px !important;
-  width: 12px !important;
+  height: 15px !important;
+  width: 10px !important;
   border: 0;
   content: "";
 }
@@ -1464,7 +1467,7 @@ section {
   padding: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 0;
 }
 
